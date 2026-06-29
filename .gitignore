@@ -20,9 +20,7 @@ data/
 *.parquet
 *.csv
 *.xlsx
-
-# Keep dashboard code, but ignore generated dashboard data by default
-dashboard/dashboard_data.csv
+!dashboard/dashboard_data.csv
 
 # Model artifacts
 models/
