@@ -14,9 +14,9 @@ As a bonus, we trained a neural network and added a Laplace approximation to mak
 src/          core feature engineering, data, and modeling code
 notebooks/    EDA, feature selection, model experiments, final pipeline
 dashboard/    Streamlit dashboard for reviewing predictions
+graphs/       generated figures
 data/         local input data, not tracked by git
 models/       local trained model files, not tracked by git
-graphs/       generated figures, not tracked by git
 ```
 
 ## Setup
