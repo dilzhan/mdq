@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local caches
+.matplotlib_cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data files
+data/
+*.parquet
+*.csv
+*.xlsx
+
+# Keep dashboard code, but ignore generated dashboard data by default
+dashboard/dashboard_data.csv
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# AI tools
+.agents
+.codex
